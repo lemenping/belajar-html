@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Latihan CSS B.1 - B.4</title>
+  <link rel="stylesheet" href="b1.css">
+</head>
+<body>
+
+  <!-- B.3: Navbar Fixed -->
+  <nav class="navbar">
+    <ul>
+      <li><a href="#">Beranda</a></li>
+      <li><a href="#">Tentang</a></li>
+      <li><a href="#">Layanan</a></li>
+    </ul>
+  </nav>
+
+  <!-- B.1 & B.3: Box Model & Position Absolute (Parent - Badge) -->
+  <div class="kotak parent">
+    <span class="badge">NEW</span>
+    <h2>Kotak Utama</h2>
+    <p>Ini adalah area konten untuk menguji Box Model dan Position Absolute.</p>
+  </div>
+
+  <!-- B.3: Position Relative -->
+  <div class="kotak-relative">
+    <p>Elemen ini menggunakan position relative (bergeser dari posisi asli).</p>
+  </div>
+
+  <!-- B.3: Position Sticky Header -->
+  <h2 class="section-header">Header Sticky</h2>
+
+  <!-- B.4: Overflow Panel Teks & Judul Kartu -->
+  <div class="panel-teks">
+    <h3 class="judul-kartu">Ini Judul Kartu Yang Sangat Panjang Sekali</h3>
+    <p>
+      Ini adalah teks panjang di dalam panel untuk menguji properti overflow. 
+      Jika teks di dalam kotak ini melebihi kapasitas tinggi (height), maka scrollbar 
+      vertikal akan otomatis muncul sesuai aturan overflow-y: auto.
+    </p>
+    <p>
+      Tambah baris paragraf lagi untuk memastikan konten cukup panjang sehingga 
+      fitur scroll pada panel dapat terlihat dengan jelas.
+    </p>
+  </div>
+
+  <!-- Element untuk kelas penyembunyi (B.2) -->
+  <div class="tersembunyi">Teks ini hilang dari layout.</div>
+  <div class="transparan">Teks ini hilang tapi ruangnya tetap ada.</div>
+
+</body>
+</html>
